@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_API_URL = process.env.BACKEND_API_URL;
+export const BASE_API_URL = "https://chat-backend-73fu.onrender.com/api";
 
 const instanceAxios = axios.create({
   baseURL: BASE_API_URL,
